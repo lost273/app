@@ -1,4 +1,4 @@
 image: gitpod/workspace-dotnet
 
 tasks:
-    command: dotnet tool install -g microsoft.dotnet-interactive
+    - command: dotnet tool install -g microsoft.dotnet-interactive
